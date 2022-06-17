@@ -1,0 +1,21 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "me.bubblefish.bubbleclient.mixins",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+    ],
+    "client": [
+        "ChatHudMixin",
+        "ClientPlayerEntityMixin",
+        "ClientPlayerInteractionManagerMixin",
+        "InGameHudMixin",
+        "OperatingSystemMixin",
+        "PlayerEntityRendererMixin",
+        "PlayerListHudMixin",
+        "GameRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

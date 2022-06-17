@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "bubbleclient-mod",
+    "version": "${version}",
+    "name": "BubbleClient Mod",
+    "description": "PvP Client misc",
+    "authors": [
+        "BubbleFish"
+    ],
+    "contact": {
+        "homepage": "https://github.com/bubblefish-dev/bubbleclient-origin/",
+        "sources": "https://github.com/bubblefish-dev/bubbleclient-mod/"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/bubbleclient-mod/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "me.bubblefish.bubbleclient.BubbleClient"
+        ]
+    },
+    "mixins": [
+        "bubbleclient-mod.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.13.3",
+        "fabric": "*",
+        "minecraft": "~1.18.2",
+        "java": ">=17"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
